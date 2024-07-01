@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teiteiwisdom_hng_task1</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+
+     
+    <div class="box">
+        
+    
+            
+        <!-------Slack Image-------->
+        <div class="home-img">
+            <img src="./my_pics.jpg" width="auto" height="auto" data-testid="slackDisplayImage" alt="Ajinor">
+           </div>
+
+
+           <div class="container">
+
+       <div class="home-text">
+        <h1  data-testid="slackUserName"></h1>
+        </div>
+    
+        <!--------Date Div---------->
+        <div class="date">
+           <p> <i class='bx bx-calendar-plus'> currentDayOfTheWeek : </i><span  data-testid="currentDayOfTheWeek"></span></p>
+            </div>
+    
+            <!------Time Div-------->
+            <div class="time">
+            <p> <i class='bx bxs-time'> currenTimeUTC :</i><span data-testid="currentUTCTime" ></span></p>
+        </div>
+    
+        <!-------Track Section---------->
+        <div class="track">
+            <p data-testid="myTrack"><i class='bx bx-expand-horizontal'></i>Frontend track</p>
+        </div>
+
+        <div class="email">
+            <p>Slack Email: <span data-testid="slackEmail">teiteiwisdom@gmail.com</span></p>
+        </div>
+    
+    <!--------Github Profile------->
+        <div class="socials">
+            <a href="https://github.com/Ajinormotor/HNGtask1"  data-testid="githubURL" >  <i class='bx bxl-github'></i> Github Profile</a>
+        </div>
+
+                 <!-- Additional Links -->
+                 <div class="additional-links">
+                    <a href="http://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+                    <a href="http://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+                    <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+                </div>
+
+                <!-- additional goal in tech -->
+        <div  class="goals">
+            <h1>My Goals in Tech</h1>
+
+            <ul  class="goal-list">
+                <li><p>Become a Full Stack Developer</p></li>
+                <li><p>Earn +$1000 in my field</p></li>
+                <li><p>Become a Senior Engineer in my field</p></li>
+            </ul>
+
+        </div>
+    
+       </div>
+    
+   
+    
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
