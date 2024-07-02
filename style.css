@@ -84,7 +84,7 @@ body {
     background: #bdc3c7;
 }
 
-.goals h1 {
+.goals h1,  .additional-links h1{
     font-size: 2rem;
     color: #e74c3c;
     margin-bottom: 15px;
@@ -103,6 +103,7 @@ body {
 @media (max-width: 1068px) {
     .box {
         flex-direction: column;
+        overflow-x: hidden;
     }
 
     .home-text h1 {
@@ -115,5 +116,12 @@ body {
 
     .additional-links a {
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .box {
+        flex-direction: column;
+        overflow-x: hidden;
     }
 }
