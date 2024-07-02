@@ -26,4 +26,3 @@ const slackEmail = document.querySelector('[data-testid="slackEmail"]')
 slackEmail.textContent = "teiteiwisdom@gmail.com"
 
 
-
